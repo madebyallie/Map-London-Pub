@@ -51,6 +51,36 @@
             "name": "Lord Clyde",
             "latitude": 51.502349,
             "longitude": -0.095988
+        },
+        {
+            "name": "The Charles Dickens",
+            "latitude": 51.503754,
+            "longitude": -0.099834
+        },
+        {
+            "name": "Rose & Crown",
+            "latitude": 51.505733,
+            "longitude": -0.105746
+        },
+        {
+            "name": "Gordons Wine Bar",
+            "latitude": 51.507893,
+            "longitude": -0.123259
+        },
+        {
+            "name": "The Kings Arms",
+            "latitude": 51.504513,
+            "longitude": -0.109119
+        },
+        {
+            "name": "The White Hart",
+            "latitude": 51.504816,
+            "longitude": -0.110664
+        },
+        {
+            "name": "The Harp",
+            "latitude": 51.509702,
+            "longitude": -0.125863
         }
     ]
 }

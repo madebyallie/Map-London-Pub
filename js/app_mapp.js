@@ -60,7 +60,8 @@ function handleNoGeolocation(errorFlag) {
 
 			var marker = new google.maps.Marker({
 				position: latLng,
-				map: map
+				map: map,
+        title: hostelry.name
 			})
 		}
 	})
