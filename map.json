@@ -1,0 +1,56 @@
+{
+    "lat": "33.7750",
+    "lng": "-122.4167",
+    "hostelries": [
+        {
+            "name": "Nell Gwynne Tavern",
+            "latitude": 51.510227,
+            "longitude": -0.122841
+        },
+        {
+            "name": "The Understudy",
+            "latitude": 51.507668,
+            "longitude": -0.113783
+        },
+        {
+            "name": "The Swan at Shakespere's Globe",
+            "latitude": 51.508284,
+            "longitude": -0.096570
+        },
+        {
+            "name": "Ye Olde Mitre",
+            "latitude": 51.518451,
+            "longitude": -0.107339
+        },
+        {
+            "name": "The Duke of Sussex",
+            "latitude": 51.501142,
+            "longitude": -0.110219
+        },
+        {
+            "name": "The Rake",
+            "latitude": 51.506176,
+            "longitude": -0.091246
+        },
+        {
+            "name": "The Market Porter",
+            "latitude": 51.505544,
+            "longitude": -0.091246
+        },
+        {
+            "name": "The George Inn",
+            "latitude": 51.504386,
+            "longitude": -0.090082
+        },
+        {
+            "name": "The Ship and Shovell",
+            "latitude": 51.507582,
+            "longitude": -0.124827
+        },
+        {
+            "name": "Lord Clyde",
+            "latitude": 51.502349,
+            "longitude": -0.095988
+        }
+    ]
+}
