@@ -8,8 +8,8 @@
 	</head>
 	<body>
 		<div id="map-canvas"></div>
-		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
 		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-		<script src="js/app_mapp.js"></script>
+		<script src="js/app_map.js"></script>
 	</body>
 </html>

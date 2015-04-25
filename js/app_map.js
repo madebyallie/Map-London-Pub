@@ -1,7 +1,7 @@
 var map;
 
 function getPubs (callback) {
-	$.getJSON('js/map.json', callback)
+	$.getJSON('map.json', callback)
 }
 
 function initialize() {
@@ -17,10 +17,15 @@ function initialize() {
       var pos = new google.maps.LatLng(position.coords.latitude,
                                        position.coords.longitude);
 
+      var marker = new google.maps.Marker({
+        position: pos,
+        map: map
+      })
+
       var infowindow = new google.maps.InfoWindow({
         map: map,
         position: pos,
-        content: 'Location found using HTML5.'
+        content: 'You are here'
       });
 
       map.setCenter(pos);
@@ -48,6 +53,8 @@ function handleNoGeolocation(errorFlag) {
 
   var infowindow = new google.maps.InfoWindow(options);
   map.setCenter(options.position);
+
+  }
   
   getPubs(function (data) {
 		var hostelries = data.hostelries;
@@ -62,10 +69,8 @@ function handleNoGeolocation(errorFlag) {
 				map: map,
 				title: hostelry.name
 			})
+
 		}
 	})
-
-
-}
 
 google.maps.event.addDomListener(window, 'load', initialize);
