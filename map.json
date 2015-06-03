@@ -5,82 +5,99 @@
         {
             "name": "Nell Gwynne Tavern",
             "latitude": 51.510227,
-            "longitude": -0.122841
+            "longitude": -0.122841,
+            "review": "Old school proper pub. Tiny. Good in the winter. Nice beer"
         },
         {
             "name": "The Understudy",
             "latitude": 51.507668,
-            "longitude": -0.113783
+            "longitude": -0.113783,
+            "review": "New, concrete, under the NT. Lovely beers. Good atmosphere."
         },
         {
             "name": "The Swan at Shakespere's Globe",
             "latitude": 51.508284,
-            "longitude": -0.096570
+            "longitude": -0.096570,
+            "review": "Where else would you go for a pint of Meantime after a bit of Will S?"
         },
         {
             "name": "Ye Olde Mitre",
             "latitude": 51.518451,
-            "longitude": -0.107339
+            "longitude": -0.107339,
+            "review": "Local pub if doing trade stuff around Hatton Garden."
         },
         {
             "name": "The Duke of Sussex",
             "latitude": 51.501142,
-            "longitude": -0.110219
+            "longitude": -0.110219,
+            "review": "Pleasant and polite environs near to Waterloo."
         },
         {
             "name": "The Rake",
             "latitude": 51.506176,
-            "longitude": -0.091246
+            "longitude": -0.091246,
+            "review": "Like a fabulous cupboard of craft ale delights."
         },
         {
             "name": "The Market Porter",
             "latitude": 51.505544,
-            "longitude": -0.091246
+            "longitude": -0.091246,
+            "review": "Good beer. Good pub."
         },
         {
             "name": "The George Inn",
             "latitude": 51.504386,
-            "longitude": -0.090082
+            "longitude": -0.090082,
+            "review": "Historic, owned by the National Trust."
         },
         {
             "name": "The Ship and Shovell",
             "latitude": 51.507582,
-            "longitude": -0.124827
+            "longitude": -0.124827,
+            "review": "Review to come"
         },
         {
             "name": "Lord Clyde",
             "latitude": 51.502349,
-            "longitude": -0.095988
+            "longitude": -0.095988,
+            "review": "Proper boozer."
         },
         {
             "name": "The Charles Dickens",
             "latitude": 51.503754,
-            "longitude": -0.099834
+            "longitude": -0.099834,
+            "review": "Good selection of beers, bijou heads."
         },
         {
             "name": "Rose & Crown",
             "latitude": 51.505733,
-            "longitude": -0.105746
+            "longitude": -0.105746,
+            "review": "Pub, beer garden. Within a sniff of Blackfriars Bridge."
         },
         {
             "name": "Gordons Wine Bar",
             "latitude": 51.507893,
-            "longitude": -0.123259
+            "longitude": -0.123259,
+            "review": "Don't do beer. Rarely get a table. Fabulous"
         },
         {
             "name": "The Kings Arms",
             "latitude": 51.504513,
-            "longitude": -0.109119
-        },
-        {
-            "name": "The White Hart",
-            "latitude": 51.504816,
-            "longitude": -0.110664
+            "longitude": -0.109119,
+            "review": "Good beer."
         },
         {
             "name": "The Harp",
             "latitude": 51.509702,
-            "longitude": -0.125863
+            "longitude": -0.125863,
+            "review": "Why did real ale get so popular?! Always packed. Beer always well kept."
+        },
+        {
+            "name": "The White Hart",
+            "latitude": 51.504816,
+            "longitude": -0.110664,
+            "review": "Like sitting in your own front room."
         }
+        
     ]
 }
