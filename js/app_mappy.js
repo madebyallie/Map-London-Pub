@@ -22,7 +22,7 @@ function initialize() {
 
   map.setCenter(options.position);
 
-  var infowindow = new google.maps.InfoWindow();
+  //var infowindow = new google.maps.InfoWindow();
 
   getPubs(function (data) {
     var hostelries = data.hostelries;
@@ -39,13 +39,18 @@ function initialize() {
       review: hostelry.review
 		});
 
-    google.maps.event.addListener(marker, 'click', function () {
-        infowindow.setContent(this.title + '<br />' + this.review);
-        infowindow.open(map, this);
+    //google.maps.event.addListener(marker, 'click', function () {
+        //infowindow.setContent(this.title + '<br />' + this.review);
+        //infowindow.open(map, this);
+    //});
+        google.maps.event.addListener(marker, 'click', function () {
+        document.getElementById("pub-name").innerHTML = (this.title),
+        document.getElementById("pub-review").innerHTML = (this.review);
     });     
   }
   });
 }
+
 
 google.maps.event.addDomListener(window, 'load', initialize);
 
