@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="stylesheets/map.css" />
 	</head>
 	<body>
-		<div class="medium-3 columns mapintro">
+		<div id="pubs">
 			<h1 class="text-center"><span>London Pubs</span></h1>
 			<p class="text-center">it doesn't have to be a crawl...</p>
 			<hr/>
@@ -18,14 +18,14 @@
 				<h4>Pub Name: </h4>
 				<div id="pub-name">Click on a map marker for pub details</div>
 				<h4>Pub Review: </h4>
-				<div id="pub-review"></div>
+				<div id="pub-review">&nbsp; &nbsp;</div>
 			</div>
 		</div>
-		<div class="medium-9 columns no-padding">
-			<div class="mapholder">
-				<div id="map-canvas" class="map-canvas"></div>
+		
+			<div id="mapholder">
+				<div id="map-canvas"></div>
 			</div>
-		</div>
+		
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
 		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script src="js/app_mappy.js"></script>

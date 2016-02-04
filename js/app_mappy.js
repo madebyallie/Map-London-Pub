@@ -22,8 +22,6 @@ function initialize() {
 
   map.setCenter(options.position);
 
-  //var infowindow = new google.maps.InfoWindow();
-
   getPubs(function (data) {
     var hostelries = data.hostelries;
     var hostelry, latLng;
@@ -33,19 +31,16 @@ function initialize() {
 		var latLng = new google.maps.LatLng(hostelry.latitude, hostelry.longitude);
 
 		var marker = new google.maps.Marker({
+      animation: google.maps.Animation.DROP,
 			position: latLng,
 			map: map,
       title: hostelry.name,
       review: hostelry.review
 		});
 
-    //google.maps.event.addListener(marker, 'click', function () {
-        //infowindow.setContent(this.title + '<br />' + this.review);
-        //infowindow.open(map, this);
-    //});
-        google.maps.event.addListener(marker, 'click', function () {
-        document.getElementById("pub-name").innerHTML = (this.title),
-        document.getElementById("pub-review").innerHTML = (this.review);
+      google.maps.event.addListener(marker, 'click', function () {
+      document.getElementById("pub-name").innerHTML = (this.title),
+      document.getElementById("pub-review").innerHTML = (this.review);
     });     
   }
   });
